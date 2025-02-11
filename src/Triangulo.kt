@@ -1,6 +1,6 @@
 import kotlin.math.sqrt
 
-class Triangulo(val base: Double, val altura: Double, color: String) : Figura(color) {
+class Triangulo(private val base: Double, private val altura: Double, color: String) : Figura(color) {
     override fun area(): Double {
         return (base * altura) / 2
     }

@@ -1,4 +1,4 @@
-class Circulo(val radio: Double, color: String): Figura(color) {
+class Circulo(private val radio: Double, color: String): Figura(color) {
     override fun area(): Double {
         return Math.PI * radio * radio
     }

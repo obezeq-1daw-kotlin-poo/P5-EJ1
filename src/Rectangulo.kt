@@ -1,4 +1,4 @@
-class Rectangulo(val base: Double, val altura: Double, color: String) : Figura(color) {
+class Rectangulo(private val base: Double, private val altura: Double, color: String) : Figura(color) {
     override fun area(): Double {
         return base * altura
     }
